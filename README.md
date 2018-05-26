@@ -4,31 +4,31 @@ Competition Link: https://datahack.analyticsvidhya.com/contest/practice-problem-
 
 Feature analysis:
 
-Chisquare test to find feature dependence for categorical variables
-Pearson correlation to find correlation between continuous variables
-One way anova to find correlation between continuous and categorical variables
-Data is having many missing values so missing values imputation was performed in following ways:
+Chisquare test to find feature dependence for categorical variables <br>
+Pearson correlation to find correlation between continuous variables <br>
+One way anova to find correlation between continuous and categorical variables <br>
+Data is having many missing values so missing values imputation was performed in following ways: <br>
 
-For categorical variables
+For categorical variables <br>
 
-Treat NAs as separate categories
-Replace by mode
-For continuous variables
+1. Treat NAs as separate categories 
+2. Replace by mode 
+3. For continuous variables 
+<br>
+Replace by mean of feature <br>
+Group average (Grouped by features found from one way ANOVA) <br>
+Feature Transformation: <br> 
 
-Replace by mean of feature
-Group average (Grouped by features found from one way ANOVA)
-Feature Transformation:
+One hot encoding <br>
+Normalization <br> 
+2 way interactions <br>
+Manually crafted features <br>
+Models: <br>
 
-One hot encoding
-Normalization
-2 way interactions
-Manually crafted features
-Models:
-
-Logistic Regression (Best model)
-Random forest
-Extra trees
-Gradient boosting machine
-Naive Bayes
-K-nearest neighbours
-Ensemble Stacking
+Logistic Regression (Best model) <br>
+Random forest <br> 
+Extra trees <br> 
+Gradient boosting machine <br> 
+Naive Bayes <br> 
+K-nearest neighbours <br>
+Ensemble Stacking <br>
