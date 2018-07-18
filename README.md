@@ -7,33 +7,31 @@
 3. One way anova to find correlation between continuous and categorical variables <br>
 4. Data is having many missing values so missing values imputation was performed in following ways: <br>
 
-### For categorical variables <br>
+### For categorical variables
 
 1. Treat NAs as separate categories 
 2. Replace by mode 
 
 ### For continuous variables 
-<br>
-1. Replace by mean of feature <br>
+1. Replace by mean of feature 
 2. Group average (Grouped by features found from one way ANOVA) 
-<br>
 
-## Feature Transformation: <br> 
+## Feature Transformation: 
 
-1. One hot encoding <br>
-2. Normalization <br> 
-3. 2 way interactions <br>
-4. Manually crafted features <br>
+1. One hot encoding 
+2. Normalization  
+3. 2 way interactions 
+4. Manually crafted features 
 
-## Models: <br>
+## Models: 
 
-1. Logistic Regression (Best model) <br>
-2. Random forest <br> 
-3. Extra trees <br> 
-4. Gradient boosting machine <br> 
-5. Naive Bayes <br> 
-6. K-nearest neighbours <br>
-7. Ensemble Stacking <br>
+1. Logistic Regression (Best model) 
+2. Random forest 
+3. Extra trees  
+4. Gradient boosting machine 
+5. Naive Bayes 
+6. K-nearest neighbours 
+7. Ensemble Stacking 
 
 Competition Link: https://datahack.analyticsvidhya.com/contest/practice-problem-loan-prediction-iii/
 
