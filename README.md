@@ -1,7 +1,5 @@
 # Loan-Prediction
 
-Competition Link: https://datahack.analyticsvidhya.com/contest/practice-problem-loan-prediction-iii/
-
 Feature analysis:
 
 Chisquare test to find feature dependence for categorical variables <br>
@@ -32,3 +30,6 @@ Gradient boosting machine <br>
 Naive Bayes <br> 
 K-nearest neighbours <br>
 Ensemble Stacking <br>
+
+Competition Link: https://datahack.analyticsvidhya.com/contest/practice-problem-loan-prediction-iii/
+
